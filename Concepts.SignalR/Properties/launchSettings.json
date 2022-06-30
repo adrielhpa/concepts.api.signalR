@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:64112",
+      "sslPort": 44396
+    }
+  },
+  "profiles": {
+    "Concepts.SignalR": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7293;http://localhost:5293",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AmazonAccessKey": "AKIAW4SVCR3XEVBGCSOQ",
+        "AmazonSecretKey": "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"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AmazonAccessKey": "AKIAW4SVCR3XEVBGCSOQ",
+        "AmazonSecretKey": "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"
+      }
+    }
+  }
+}
